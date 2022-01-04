@@ -1,13 +1,15 @@
 import React from "react";
 
 import "./App.css";
-import uservatar from "./components/userAvatar/index";
+import { UserAvatar } from "./components/userAvatar/index";
 
-function App() {
+function App(): JSX.Element {
   return (
-    <section>
-      <h1>aaaa</h1>
-    </section>
+    <div className="container">
+      <div className="container__heightFull alignVertical">
+        <UserAvatar />
+      </div>
+    </div>
   );
 }
 

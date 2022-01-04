@@ -1,7 +1,13 @@
 import React from "react";
 
-function userAvatar() {
-  return <div className="userAvatar" />;
+export function UserAvatar() {
+  return (
+    <div className="userAvatar">
+      <img
+        src={../}
+        alt=""
+      />
+      <h1>aaa</h1>
+    </div>
+  );
 }
-
-export default userAvatar;
