@@ -17,7 +17,8 @@ export function UserAvatar() {
         <div className="userAvatar__avatar" style={bgAvatar} />
       </div>
       <div className="col-8">
-        <h1>nome</h1>
+        <h2>Vinicius Gugelmin</h2>
+        <p>Desenvolvedor Back-end</p>
       </div>
     </div>
   );

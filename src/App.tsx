@@ -8,6 +8,7 @@ function App(): JSX.Element {
     <div className="container">
       <div className="container__heightFull alignVertical">
         <UserAvatar />
+        <UserAvatar />
       </div>
     </div>
   );
