@@ -1,7 +1,9 @@
 .userAvatar {
   width: 90%;
   max-width: 500px;
-  background-color: blue;
+  background-image:  var(--background-color-1);
+  box-shadow: var(--shadow-1);
+  border-radius: 10px;
 
   .col-4{
     position: relative;

@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 
-import logo from "./user.png";
+import logo from "./vini.jpg";
 
 const bgAvatar = {
   color: "white",
@@ -12,7 +12,7 @@ const bgAvatar = {
 
 export function UserAvatar() {
   return (
-    <div className="userAvatar alignVertical">
+    <div className="userAvatar boxShadow alignVertical">
       <div className="col-4">
         <div className="userAvatar__avatar" style={bgAvatar} />
       </div>

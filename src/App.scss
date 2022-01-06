@@ -1,12 +1,13 @@
 /* variables */
 $widthContent: 1440px;
+@import "styles/_variables";
 
 /* header */
 
 /* Footer */
 
 /* Componentes */
-@import "components/userAvatar/style";
+@import "components/userAvatar/_style";
 
 /* Paginas */
 
@@ -29,7 +30,7 @@ $widthContent: 1440px;
 
 body{
   margin: 0;
-  background-color: #111111;
+  background-color: var(--background-color-2);
   color: #bbb;
 
   .container{
