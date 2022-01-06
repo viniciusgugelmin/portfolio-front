@@ -996,6 +996,10 @@ a {
   margin: 0px;
 }
 
+.userAvatar p {
+  margin-bottom: 15px;
+}
+
 .userAvatar__avatar {
   width: 80%;
   height: 80%;

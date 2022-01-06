@@ -1,5 +1,7 @@
 import React from "react";
 
+import { FaFacebook, FaLinkedin, FaGithubSquare } from "react-icons/fa";
+
 import logo from "./user.png";
 
 const bgAvatar = {
@@ -19,7 +21,9 @@ export function UserAvatar() {
           <h2>Vinicius Gugelmin</h2>
           <p>Desenvolvedor Back-end</p>
           <div className="col-12 ">
-            <p>icons</p>
+            <FaFacebook />
+            <FaLinkedin />
+            <FaGithubSquare />
           </div>
         </div>
       </div>
