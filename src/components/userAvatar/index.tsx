@@ -1,8 +1,7 @@
 import React from "react";
-
 import { FaFacebook, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
-import logo from "./user.png";
+import logo from "./vini.jpg";
 
 const bgAvatar = {
   color: "white",
@@ -11,6 +10,8 @@ const bgAvatar = {
 };
 
 export function UserAvatar() {
+  const url = "";
+
   return (
     <div className="col-12 alignVertical">
       <div className="userAvatar boxShadow alignVertical">
@@ -20,7 +21,7 @@ export function UserAvatar() {
         <div className="col-8">
           <h2>Vinicius Gugelmin</h2>
           <p>Desenvolvedor Back-end</p>
-          <div className="col-12 ">
+          <div className="col-12 userAvatar__avatar--socialRedes">
             <FaFacebook />
             <FaLinkedin />
             <FaGithubSquare />

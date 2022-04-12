@@ -31,60 +31,60 @@ $widthContent: 1440px;
 .float-left {float: left;}
 
 body{
-  margin: 0;
-  background-color: var(--background-color-2);
-  color: #bbb;
+    margin: 0;
+    background-color: var(--background-color-2);
+    color: #bbb;
 
-  .container{
-    width: $widthContent;
-    margin: 0 auto;
-    max-width: 100%;
+    .container{
+        width: $widthContent;
+        margin: 0 auto;
+        max-width: 100%;
 
-    &__heightFull{
-      height: 100vh;
+        &__heightFull{
+        height: 100vh;
+        }
+
+        @media (max-width: $widthContent) {
+        max-width: 90%;
+        }
     }
-
-    @media (max-width: $widthContent) {
-      max-width: 90%;
-    }
-  }
 }
 
 .flex{
-  display: flex;
+    display: flex;
 }
 
 .flex-wrap{
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .alinItem {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .alignVertical{
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .alignVerticalEnd{
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .alignVerticalStart{
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
