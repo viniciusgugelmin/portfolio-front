@@ -980,31 +980,34 @@ a {
 /* Componentes */
 .userAvatar {
   width: 90%;
-  max-width: 700px;
+  max-width: 300px;
   background-image: var(--background-color-1);
   -webkit-box-shadow: var(--shadow-1);
           box-shadow: var(--shadow-1);
   border-radius: 10px;
 }
 
-.userAvatar .col-4 {
+.userAvatar__image {
   position: relative;
-  min-height: 230px;
+  min-height: 180px;
 }
 
-.userAvatar h2, .userAvatar p {
+.userAvatar h2,
+.userAvatar p {
   margin: 0px;
+  text-align: center;
 }
 
 .userAvatar p {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .userAvatar__avatar {
   width: 80%;
   height: 80%;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 150px;
+  max-height: 150px;
   position: relative;
   border-radius: 100%;
   position: absolute;
@@ -1026,6 +1029,13 @@ a {
 
 .userAvatar__avatar--socialRedes {
   font-size: 30px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .userAvatar__avatar--socialRedes svg {

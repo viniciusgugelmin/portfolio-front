@@ -1,6 +1,7 @@
 {
-  "arrowParens": "avoid",
-  "endOfLine": "lf",
-  "trailingComma": "all",
-  "semi": true
+    "arrowParens": "avoid",
+    "endOfLine": "lf",
+    "trailingComma": "all",
+    "semi": true,
+    "useTabs": true
 }
