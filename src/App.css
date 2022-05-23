@@ -992,7 +992,7 @@ a {
   min-height: 180px;
 }
 
-.userAvatar h2,
+.userAvatar h3,
 .userAvatar p {
   margin: 0px;
   text-align: center;
@@ -1000,6 +1000,7 @@ a {
 
 .userAvatar p {
   margin-bottom: 15px;
+  margin-top: 10px;
   text-align: center;
 }
 

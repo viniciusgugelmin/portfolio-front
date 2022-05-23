@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import React from "react";
 import { FaFacebook, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
@@ -9,18 +10,17 @@ const bgAvatar = {
 	fontSize: 200,
 };
 
-export function UserAvatar() {
-	const url = "";
-
+// eslint-disable-next-line react/no-unused-prop-types
+export function UserAvatar(props: { name: string; dev: string }) {
 	return (
-		<div className="col-16 alignVertical">
+		<div className="col-4 alignVertical">
 			<div className="userAvatar boxShadow alignVertical">
 				<div className="col-12 userAvatar__image">
 					<div className="userAvatar__avatar" style={bgAvatar} />
 				</div>
 				<div className="col-12">
-					<h2>Vinicius Gugelmin</h2>
-					<p>Desenvolvedor Back-end</p>
+					<h3>{props.name}</h3>
+					<p>Desenvolvedor {props.dev}</p>
 					<div className="col-12 userAvatar__avatar--socialRedes">
 						<FaFacebook />
 						<FaLinkedin />
