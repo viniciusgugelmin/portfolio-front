@@ -1,9 +1,11 @@
 import React from "react";
 
 import "./App.css";
-import { UserAvatar } from "./components/userAvatar/index";
 
-function App(): JSX.Element {
+import { UserAvatar } from "./components/userAvatar/index";
+import { Portifolio } from "./pages/portifolio/index";
+
+function App() {
 	return (
 		<div className="container">
 			<div className="container__heightFull alignVertical">

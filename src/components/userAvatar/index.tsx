@@ -1,8 +1,8 @@
 /* eslint-disable react/destructuring-assignment */
 import React from "react";
 import { FaFacebook, FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-// eslint-disable-next-line react/no-unused-prop-types
 export function UserAvatar(props: { name: string; dev: string; img: string }) {
 	const bgAvatar = {
 		color: "white",
@@ -24,6 +24,11 @@ export function UserAvatar(props: { name: string; dev: string; img: string }) {
 						<FaGithubSquare />
 					</div>
 				</div>
+
+				{/* <Link to="/users" style={{ color: "white" }}>
+					Acessar
+				</Link> */}
+				<a href="/portifolio">Michael</a>
 			</div>
 		</div>
 	);
