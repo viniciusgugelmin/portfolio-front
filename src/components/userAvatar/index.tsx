@@ -2,16 +2,13 @@
 import React from "react";
 import { FaFacebook, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
-import logo from "./user.png";
-
-const bgAvatar = {
-	color: "white",
-	backgroundImage: `url(${logo})`,
-	fontSize: 200,
-};
-
 // eslint-disable-next-line react/no-unused-prop-types
-export function UserAvatar(props: { name: string; dev: string }) {
+export function UserAvatar(props: { name: string; dev: string; img: string }) {
+	const bgAvatar = {
+		color: "white",
+		backgroundImage: `url(${props.img})`,
+	};
+
 	return (
 		<div className="col-4 alignVertical">
 			<div className="userAvatar boxShadow alignVertical">
