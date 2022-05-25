@@ -1,60 +1,100 @@
 /* variables */
 $widthContent: 1440px;
-@import "styles/_variables";
-@import "styles/_font-face";
-@import "styles/_fonts";
+@import "components/_variables";
+@import "components/_font-face";
+@import "components/_fonts";
 
 /* header */
 
 /* Footer */
 
 /* Componentes */
-@import "components/userAvatar/_style";
+@import "../components/userAvatar/style";
 
 /* Paginas */
 
 // Columns
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+    width: 8.33%;
+}
 
-.float-right {float: right;}
-.float-left {float: left;}
+.col-2 {
+    width: 16.66%;
+}
 
-body{
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+body {
     margin: 0;
     background-color: var(--background-color-2);
     color: #bbb;
 
-    .container{
+    .container {
         width: $widthContent;
         margin: 0 auto;
         max-width: 100%;
 
-        &__heightFull{
-        height: 100vh;
+        &__heightFull {
+            height: 100vh;
         }
 
         @media (max-width: $widthContent) {
-        max-width: 90%;
+            max-width: 90%;
         }
     }
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.flex-wrap{
+.flex-wrap {
     flex-wrap: wrap;
 }
 
@@ -65,7 +105,7 @@ body{
     flex-wrap: wrap;
 }
 
-.alignVertical{
+.alignVertical {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -73,7 +113,7 @@ body{
     justify-content: center;
 }
 
-.alignVerticalEnd{
+.alignVerticalEnd {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -81,7 +121,7 @@ body{
     justify-content: flex-end;
 }
 
-.alignVerticalStart{
+.alignVerticalStart {
     align-items: center;
     display: flex;
     flex-direction: row;

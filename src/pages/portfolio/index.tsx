@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Portifolio() {
+export function PortfolioPage() {
 	return (
 		<div>
 			<h3>teste</h3>

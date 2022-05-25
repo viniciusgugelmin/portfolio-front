@@ -1,11 +1,8 @@
 import React from "react";
 
-import "./App.css";
+import { UserAvatar } from "../../components/userAvatar/index";
 
-import { UserAvatar } from "./components/userAvatar/index";
-import { Portifolio } from "./pages/portifolio/index";
-
-function App() {
+export function UserPage() {
 	return (
 		<div className="container">
 			<div className="container__heightFull alignVertical">
@@ -23,5 +20,3 @@ function App() {
 		</div>
 	);
 }
-
-export default App;

@@ -24,11 +24,6 @@ export function UserAvatar(props: { name: string; dev: string; img: string }) {
 						<FaGithubSquare />
 					</div>
 				</div>
-
-				{/* <Link to="/users" style={{ color: "white" }}>
-					Acessar
-				</Link> */}
-				<a href="/portifolio">Michael</a>
 			</div>
 		</div>
 	);
