@@ -1068,7 +1068,7 @@ a {
 }
 
 .navBar {
-  background-color: red;
+  background-color: var(--background-color-2);
   height: 100px;
   width: 100%;
   position: absolute;
