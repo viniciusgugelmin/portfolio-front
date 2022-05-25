@@ -1067,7 +1067,20 @@ a {
   }
 }
 
+.navBar {
+  background-color: red;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 /* Paginas */
+.portifolio {
+  color: white;
+}
+
 .col-1 {
   width: 8.33%;
 }

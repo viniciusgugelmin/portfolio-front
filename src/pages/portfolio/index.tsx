@@ -1,9 +1,11 @@
 import React from "react";
 
+import { NavBar } from "../../components/navBar/index";
+
 export function PortfolioPage() {
 	return (
-		<div>
-			<h3>teste</h3>
+		<div className="container">
+			<NavBar />
 		</div>
 	);
 }
