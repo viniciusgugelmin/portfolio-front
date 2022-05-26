@@ -1,22 +1,66 @@
 .navBar {
-    background-color: transparent;
+    background-color: $color-tertiary;
+    //background-color: transparent;
     position: absolute;
     z-index: 999;
     top: 0px;
+    left: 0px;
 
-    &__nav{
+    p {
+        color: $color-primary;
+        font-weight: 600;
+    }
+
+    &__nav {
         list-style: none;
         padding: 0;
 
-        &--item{
+        &--user {
+            position: relative !important;
+            height: 100%;
+        }
+
+        &--avatar {
+            width: 80%;
+            height: 80%;
+            max-width: 50px;
+            max-height: 50px;
+            position: relative;
+            border-radius: 100%;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+            animation: morph 10s ease-in-out 1s infinite;
+            background-blend-mode: multiply;
+            box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, .3);
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+            overflow: hidden;
+        }
+
+        &--item {
             margin: 10px 14px;
             transition: 0.3s;
 
-            .link{
+            .link {
                 color: $color-lightn;
+                background-image: linear-gradient(transparent 0%,
+                        transparent 90%,
+                        $color-primary 90%,
+                        $color-primary 100%);
+                background-repeat: no-repeat;
+                background-size: 0% 100%;
+                background-position-x: right;
+                transition: background-size 300ms;
 
-                &:hover{
+                &:hover {
                     color: $color-white;
+                    background-size: 100% 100%;
+                    background-position-x: left;
                 }
             }
         }

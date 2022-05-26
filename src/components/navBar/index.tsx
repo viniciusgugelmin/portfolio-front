@@ -1,14 +1,23 @@
+/* eslint-disable react/destructuring-assignment */
 import React from "react";
 import { FaFacebook, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
-export function NavBar() {
-	const url = "";
+export function NavBar(props: { name: string; img: string }) {
+	const bgAvatar = {
+		color: "white",
+		backgroundImage: `url(${props.img})`,
+	};
 
 	return (
 		<div className="navBar col-12">
-			<div className="flex">
+			<div className="flex container">
 				<div className="col-2 alignVertical">
-					<h3>LOGO</h3>
+					<div className="col-4 navBar__nav--user">
+						<div className="navBar__nav--avatar" style={bgAvatar} />
+					</div>
+					<div className="col-8">
+						<p>{props.name}</p>
+					</div>
 				</div>
 				<div className="col-10 alignVertical">
 					<ul className="navBar__nav flex">
