@@ -74,7 +74,7 @@ $widthContent: 1440px;
 
 body {
     margin: 0;
-    background-color: var(--background-color-2);
+    background-color: $background-color-2;
     color: #bbb;
 
     .container {

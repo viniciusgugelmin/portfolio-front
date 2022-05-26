@@ -1,8 +1,24 @@
 .navBar {
-    background-color: var(--background-color-2);
-    height: 100px;
-    width: 100%;
+    background-color: transparent;
     position: absolute;
+    z-index: 999;
     top: 0px;
-    left: 0px;
+
+    &__nav{
+        list-style: none;
+        padding: 0;
+
+        &--item{
+            margin: 10px 14px;
+            transition: 0.3s;
+
+            .link{
+                color: $color-lightn;
+
+                &:hover{
+                    color: $color-white;
+                }
+            }
+        }
+    }
 }
