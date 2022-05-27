@@ -1,7 +1,5 @@
-import { ReactTypical } from "@deadcoder0904/react-typical";
 import React from "react";
-
-import Particles from "react-particles-js";
+import { Spring, animated } from "react-spring";
 
 import { NavBar } from "../../components/navBar/index";
 
@@ -19,18 +17,7 @@ export function PortfolioPage() {
 							</p>
 							<h2 className="portifolio__welcome--title">
 								Hi, I’m <span>Welington</span>
-								<br />a
-								<ReactTypical
-									loop={Infinity}
-									wrapper="b"
-									steps={[
-										" Developer",
-										4000,
-										" Front-End",
-										4000,
-									]}
-								/>
-								.
+								<br />a Developer.
 							</h2>
 							<p className="portifolio__welcome--description">
 								I use animation as a third dimension by which to
@@ -40,9 +27,7 @@ export function PortfolioPage() {
 							</p>
 						</div>
 					</div>
-					<div className="col-5">
-						<Particles />
-					</div>
+					<div className="col-5">{/* <Particles /> */}</div>
 				</div>
 			</div>
 		</div>

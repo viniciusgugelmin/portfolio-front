@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+// eslint-disable-next-line import/no-unresolved
 import { useInterval } from "react-use";
 import styled, { keyframes } from "styled-components";
 
