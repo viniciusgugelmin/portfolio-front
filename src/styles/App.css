@@ -1098,7 +1098,34 @@ a {
 
 /* Paginas */
 .portifolio {
-  margin-top: 100px;
+  margin-top: 150px;
+}
+
+.portifolio__welcome--subtitle {
+  font-size: 14px;
+  color: #c4cfde;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.portifolio__welcome--title {
+  font-size: 60px;
+  line-height: 75px;
+}
+
+.portifolio__welcome--description {
+  font-size: 16px;
+  line-height: 30px;
+  color: #c4cfde;
+  padding-right: 16%;
+  opacity: 0.9;
+}
+
+.portifolio__welcome span {
+  color: #ff014f;
 }
 
 .col-1 {
